@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  min-width: 320px;
+}
+
+html,body{
+  font-family: 'Noto Sans';
+}
+h1,h2,h3,p{
+  margin: 0;
+  padding: 0;
+}
+.line{
+  height: 1px;
+  background-color: #f5f7fa;
+}
+.header{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.6px;
+  text-align: center;
+  padding-bottom: 35px;
+  color: #333333;
+  @media(min-width: 1200px){
+    font-size: 38px;
+    line-height: 48px;
+    padding-bottom: 60px;
+  }
+}
+.paragraph{
+  font-family: "Noto Serif";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #777777;
+}
+.orange__button{
+  width: 47px;
+  height: 47px;
+  transition-property: all;
+  transition-duration: 1.5s;
+  &:hover{
+    transform: scale(1.4);
+  }
+}

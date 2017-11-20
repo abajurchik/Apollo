@@ -1,0 +1,52 @@
+.how_we_working{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  @media(min-width: 1200px){
+    padding-top: 60px;
+  }
+}
+
+.padding--for-mobile{
+  margin-bottom: 40px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  @media(min-width: 768px){
+    &:nth-last-child(2){
+      margin-bottom: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  @media(min-width: 1200px){
+    margin-bottom: 0;
+  }
+}
+.we__work--img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.how_we_working__header{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 20px;
+  color: #333;
+  @media(min-width: 1200px){
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.how_we_working__slogan{
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+  line-height: 24px;
+}
